@@ -6,7 +6,7 @@ from .utils import load_image
 class Kuplich(pg.sprite.Sprite):
     IMG = pg.transform.smoothscale(
         load_image('kuplich.webp'),
-        (150, 200))
+        (150, 210))
     IMG_FLIPPED = pg.transform.flip(IMG, True, False)
     MASK = pg.mask.from_surface(IMG)
     MASK_FLIPPED = pg.mask.from_surface(IMG_FLIPPED)
